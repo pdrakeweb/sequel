@@ -23,4 +23,6 @@ SEQUEL_GEMSPEC = Gem::Specification.new do |s|
   s.add_development_dependency "tzinfo"
   s.add_development_dependency "activemodel"
   s.add_development_dependency "nokogiri"
+  s.add_development_dependency "rubysl-securerandom", '~>2.0.0'
+  s.add_development_dependency "rake"
 end
